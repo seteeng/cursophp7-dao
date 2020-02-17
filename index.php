@@ -26,11 +26,17 @@ require_once("config.php");
 //echo $aluno;
 
 //atualizando usuário
+//$usuario = new Usuario();
+//$usuario->loadById(8);
+//$usuario->update("professor", "senha");
+//echo $usuario;
+
+//apagardo usuário
 $usuario = new Usuario();
 
-$usuario->loadById(8);
+$usuario->loadById(7);
 
-$usuario->update("professor", "senha");
+$usuario->delete();
 
 echo $usuario;
 
