@@ -1,6 +1,6 @@
 <?php
 
-class Sql extends PDO {
+class SqL extends PDO {
 
     private $conn;
 
